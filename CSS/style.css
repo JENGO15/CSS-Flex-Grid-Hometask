@@ -1,0 +1,336 @@
+Header {
+  margin-top: 0%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30% 0 50px;
+}
+
+.title {
+  text-decoration: none;
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 16px;
+
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+  cursor: pointer;
+}
+li a {
+  text-decoration: none;
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.nav_links {
+  list-style: none;
+}
+.nav_links li {
+  display: inline-flex;
+  padding: 0px 20px;
+}
+/* esto es una transicion no es para esta entrega pero si la que sigue y es para una linea de abajo*/
+.nav_links li a {
+  transition: all 0.3s ease 0s;
+}
+.nav_links li a:hover {
+  color: green;
+}
+
+.Hero {
+
+  width: 1200px;
+  height: 700px;
+  background-image: url(/CSS-Flex-Grid-Hometask/assets/Desktop_Backgrounds_1920x1200_6\ 3.png);
+}
+
+.contenedor_textoHero{
+  display: flex;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+  padding: 10%;
+  height:80%;
+}
+
+.imagenlogo {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Hero h1 {
+  display: block;
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  /* or 133% */
+
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.Hero h2 {
+  display: block;
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+ 
+
+  text-align: center;
+
+  color: rgba(255, 255, 255, 0.7);
+
+}
+
+.Main {
+  
+  width: 1200px;
+  height: 700px;
+
+  background: #eeeeee;
+}
+
+.Main h2 {
+  height: 119px;
+  top: 887px;
+  margin-top: 0%;
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  
+  text-align: center;
+
+  color: #464547;
+
+  padding-top: 40px;
+}
+
+.Main h3 {
+  display: block;
+  height: 57px;
+  top: 1046px;
+
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+ 
+
+  text-align: center;
+
+  color: #666666;
+}
+
+.Main #pm1 {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+
+  text-align: justify;
+
+  color: #000000;
+}
+.Main #pm2 {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+
+  text-align: justify;
+
+  color: #000000;
+}
+
+.flex-main-container{
+  display: flex;
+  justify-content: flex-end;
+}
+.container {
+  width: 408px;
+  height: 172px;
+  font-family: "Source Sans Pro";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: end;
+  margin: 5px;
+  display: flex;
+  flex-direction: row;
+  padding: 5%;
+  
+  
+  justify-content:space-between;
+
+}
+
+/* .container p {
+  text-align: center;
+} */
+
+.Main #BtnRead {
+  margin: 50px;
+  height: 36px;
+  width: 115px;
+  border-radius: 18px;
+  background: #55c2d8;
+  text-align: center;
+  color: white;
+
+  font-family: "Oswald Regular";
+  font-size: 14px;
+  line-height: 26px;
+  letter-spacing: 0.1em;
+}
+
+.btn_position{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Learn_more {
+  display: grid;
+  place-content: center;
+  width: 1200px;
+  height: 666px;
+
+  background-image: url(/CSS-Flex-Grid-Hometask/assets/Learn-more.png);
+}
+
+.Learn_more h2 {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.Learn_more #BtnPlay {
+  display: block;
+  place-self: center;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  font-size: 70px;
+  text-align: center;
+  background: #39c2d7;
+  color: #ffffff;
+}
+
+.Learn_more h3 {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+
+  text-align: center;
+  color: #ffffff;
+}
+
+.Footer {
+  width: 1200px;
+  height: 100px;
+  padding-top: 40px;
+  text-align: left;
+  background: #464547;
+}
+
+
+.Footer #p1 {
+
+  padding-left: 30px;
+  margin-block: auto;
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 16px;
+
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+
+
+
+}
+
+.Footer #p2 {
+
+  margin-top: 0%;
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: rgba(255, 255, 255, 0.4);
+
+  align-items: start;
+  text-align: left;
+
+}
+
+
+
+.Footer #p3 {
+
+  display: flex;
+  margin-top: 0%;
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: rgba(255, 255, 255, 0.4);
+
+  align-items: end;
+  margin-right: 50px;
+}
+
+.footer_items {
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content:space-between;
+}
+
+.div_flex3{
+  display: flex;
+}
+
+.div_flex2{
+  display: flex;
+  flex-wrap: wrap;
+}
