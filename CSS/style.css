@@ -47,26 +47,35 @@ li a {
 .nav_links li a:hover {
   color: green;
 }
-
 .Hero {
 
-  width: 1200px;
-  height: 700px;
-  background-image: url(/CSS-Flex-Grid-Hometask/assets/Desktop_Backgrounds_1920x1200_6\ 3.png);
+  width: 100vw;
+  height: 822px;
+  /* overflow: hidden; */
+  /* position: relative; */
+  text-align: center;
+  background-image: url(/assets/Desktop_Backgrounds_1920x1200_6\ 3.png);
 }
 
 .contenedor_textoHero{
   display: flex;
+  flex-wrap: nowrap;
+
   align-items: center;
   align-content: center;
-  flex-direction: column;
-  padding: 10%;
+  flex-direction: column; 
+
+
+  width: 100vw;
+  height: 100vh;
+  
+  text-align: center;
+  padding-top: 10%;
   height:80%;
 }
 
 .imagenlogo {
-  display: flex;
-  justify-content: center;
+
   margin-left: auto;
   margin-right: auto;
 }
@@ -78,7 +87,7 @@ li a {
   font-weight: 700;
   font-size: 48px;
   line-height: 64px;
-  /* or 133% */
+
 
   text-align: center;
 
@@ -101,10 +110,12 @@ li a {
 }
 
 .Main {
-  
-  width: 1200px;
-  height: 700px;
 
+  width: 100vw;
+  height: 700px;
+  flex-wrap: nowrap;
+
+  text-align: center;
   background: #eeeeee;
 }
 
@@ -126,7 +137,7 @@ li a {
 }
 
 .Main h3 {
-  display: block;
+
   height: 57px;
   top: 1046px;
 
@@ -167,7 +178,7 @@ li a {
 
 .flex-main-container{
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
 }
 .container {
   width: 408px;
@@ -187,9 +198,7 @@ li a {
 
 }
 
-/* .container p {
-  text-align: center;
-} */
+
 
 .Main #BtnRead {
   margin: 50px;
@@ -206,19 +215,14 @@ li a {
   letter-spacing: 0.1em;
 }
 
-.btn_position{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+
 
 .Learn_more {
   display: grid;
   place-content: center;
-  width: 1200px;
-  height: 666px;
-
-  background-image: url(/CSS-Flex-Grid-Hometask/assets/Learn-more.png);
+  width: 100vw;
+  height: 637px;
+  background-image: url(/assets/Learn-more.png);
 }
 
 .Learn_more h2 {
@@ -257,7 +261,7 @@ li a {
 }
 
 .Footer {
-  width: 1200px;
+  width: 100vw;
   height: 100px;
   padding-top: 40px;
   text-align: left;
