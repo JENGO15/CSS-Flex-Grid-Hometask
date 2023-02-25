@@ -59,13 +59,8 @@ a:hover:after {
   display: inline-flex;
   padding: 0px 20px;
 }
-/* esto es una transicion no es para esta entrega pero si la que sigue y es para una linea de abajo*/
-.nav_links li a {
-  transition: all 0.3s ease 0s;
-}
-.nav_links li a:hover {
-  color: green;
-}
+
+
 .Hero {
 
   width: 100vw;
